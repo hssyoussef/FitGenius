@@ -151,23 +151,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **Password**: `password123`
 *(Or click the "Click to fill Demo Account credentials" button on the login screen).*
 
----
-
-## 🐳 Docker Deployment
-
-To launch the full stack (FastAPI + PostgreSQL + Next.js) using Docker Compose:
-
-```bash
-docker-compose up --build
-```
-
-- **Frontend**: http://localhost:3000
-- **Backend API Docs (Swagger)**: http://localhost:8000/docs
-- **Health Check**: http://localhost:8000/health
-
----
-
-## 📝 CV / Portfolio Summary
 
 > **FitGenius AI — AI-Powered Fitness and Workout Planning Platform**  
 > Designed and developed a full-stack fitness web application that leverages artificial intelligence to generate personalized workout programs based on users' physical characteristics, fitness goals, training experience, and available equipment.  
