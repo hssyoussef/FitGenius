@@ -23,7 +23,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-[#090D16] text-slate-900 dark:text-slate-100 flex flex-col">
+    <div className="min-h-screen bg-slate-50 dark:bg-[#090D16] text-slate-900 dark:text-slate-100 flex flex-col" suppressHydrationWarning>
       <Navbar onToggleSidebar={() => setSidebarOpen((prev) => !prev)} />
       
       <div className="flex flex-1">
